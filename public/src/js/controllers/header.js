@@ -40,7 +40,6 @@ angular.module('insight.system').controller('HeaderController',
       socket.on('block', function(block) {
         var blockHash = block.toString();
         _getBlock(blockHash);
-        $rootScope.$broadcast('block', blockHash);
       });
     });
 
