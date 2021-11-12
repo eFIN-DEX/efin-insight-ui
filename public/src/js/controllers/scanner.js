@@ -113,6 +113,7 @@ angular.module('insight.system').controller('ScannerController',
       _scanStop();
 
       var str = (data.indexOf('particl:') === 0) ? data.substring(8) : data; 
+      str = (data.indexOf('efin:') === 0) ? data.substring('efin:'.length) : data; 
       console.log('QR code detected: ' + str);
       $searchInput
         .val(str)

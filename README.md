@@ -1,6 +1,6 @@
 # Insight UI
 
-A Particl blockchain explorer web application service for [Bitcore Node](https://github.com/particl/particl-bitcore-node) using the [Insight API](https://github.com/particl/particl-insight-api).
+A Efin blockchain explorer web application service for [Bitcore Node](https://github.com/particl/particl-bitcore-node) using the [Insight API](https://github.com/particl/particl-insight-api).
 
 ## Quick Start
 
